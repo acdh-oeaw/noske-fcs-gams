@@ -1,14 +1,67 @@
 {
-  "jhp": {
-    "title": "Joseph von Hammer-Purgstall",
-    "default_lang": "deu",
-    "pid": "https://hdl.handle.net/21.11115/0000-0018-0860-1",
+  "detamax": {
+    "title": "Digitale Edition des Tagebuchs von Kaiser Maximilian von Mexiko",
+    "default_lang": "de",
+    "pid": "",
     "fulltext_xpath": "//tei:body/.//text()[not(ancestor::tei:note or ancestor::tei:abbr or ancestor::tei:am or ancestor::tei:del)]",
-    "landingpage": "https://gams.uni-graz.at/context:hpe",
+    "landingpage": "https://gams.uni-graz.at/detamax",
     "docs": {
-      "https://gams.uni-graz.at/o:hpe.letter.2733/TEI_SOURCE": "Joseph von Hammer-Purgstall an Jean Pierre Abel-Remusat, Wien, 1822-06-03",
-      "https://gams.uni-graz.at/o:hpe.letter.2734/TEI_SOURCE": "Friedrich Wilken an Joseph von Hammer-Purgstall, Berlin, 1822-06-04",
-      "https://gams.uni-graz.at/o:hpe.letter.2735/TEI_SOURCE": "Karl August Böttiger an Joseph von Hammer-Purgstall, Dresden, 1822-06-07"
+      "https://gams.uni-graz.at/o:detamax.diary/TEI_SOURCE": "Tagebuch"
+    }
+  },
+  "aled": {
+    "title": "Digitale Edition der Chronik des Klosters Aldersbach",
+    "default_lang": "de",
+    "pid": "",
+    "fulltext_xpath": "//tei:body/.//text()[not(ancestor::tei:note or ancestor::tei:abbr or ancestor::tei:am or ancestor::tei:del)]",
+    "landingpage": "https://gams.uni-graz.at/aled",
+    "docs": {
+      "https://gams.uni-graz.at/o:aled.1/TEI_SOURCE": "Chronik von Aldersbach"
+    }
+  },
+  "fercan": {
+    "title": "Die keltischen Götternamen der germanischen Provinzen",
+    "default_lang": "la",
+    "pid": "http://hdl.handle.net/11471/504.50",
+    "fulltext_xpath": "//tei:body/.//text()[not(ancestor::tei:note or ancestor::tei:abbr or ancestor::tei:am or ancestor::tei:del)]",
+    "landingpage": "https://gams.uni-graz.at/fercan",
+    "docs": {
+      "https://gams.uni-graz.at/o:fercan.1016/TEI_SOURCE": "Rhenus Pater",
+      "https://gams.uni-graz.at/o:fercan.5/TEI_SOURCE": "Mercurius Gebrinius",
+      "https://gams.uni-graz.at/o:fercan.263/TEI_SOURCE": "Matres Brittae"
+    }
+  },
+  "hsa": {
+    "title": "Hugo Schuchardt Archiv",
+    "default_lang": "eu pt cy",
+    "pid": "http://hdl.handle.net/11471/518.10",
+    "fulltext_xpath": "//tei:body/.//text()[not(ancestor::tei:note or ancestor::tei:abbr or ancestor::tei:am or ancestor::tei:del)]",
+    "landingpage": "http://schuchardt.uni-graz.at",
+    "docs": {
+      "https://gams.uni-graz.at/o:hsa.letter.2452/TEI_SOURCE": "Auguste Etcheverry an Hugo Schuchardt (02-02781)",
+      "https://gams.uni-graz.at/o:hsa.letter.4124/TEI_SOURCE": "Hugo Schuchardt an José Leite de Vasconcelos (16-20844)",
+      "https://gams.uni-graz.at/o:hsa.letter.10829/TEI_SOURCE": "Hugo Schuchardt an John Rhys (06-A1.1.5)"
+    }
+  },
+  "sema": {
+    "title": "Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574)",
+    "default_lang": "ota",
+    "pid": "http://hdl.handle.net/11471/1020.40",
+    "fulltext_xpath": "//tei:body/.//text()[not(ancestor::tei:note or ancestor::tei:abbr or ancestor::tei:am or ancestor::tei:del)]",
+    "landingpage": "https://gams.uni-graz.at/sema",
+    "docs": {
+      "https://gams.uni-graz.at/o:sema.rc.osm.15670321/TEI_SOURCE": "Urkunde 1",
+      "https://gams.uni-graz.at/o:sema.rc.osm.15670430/TEI_SOURCE": "Urkunde 2"
+    }
+  },
+  "speculum": {
+    "title": "Digital edition of Zrcalo člověčaskogo spasenja",
+    "default_lang": "hr",
+    "pid": "",
+    "fulltext_xpath": "//tei:body/.//text()[not(ancestor::tei:note or ancestor::tei:abbr or ancestor::tei:am or ancestor::tei:del)]",
+    "landingpage": "https://gams.uni-graz.at/speculum",
+    "docs": {
+      "https://gams.uni-graz.at/o:speculum.01/TEI_SOURCE": "Digital edition of Zrcalo člověčaskogo spasenja"
     }
   }
 }

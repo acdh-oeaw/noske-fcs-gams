@@ -41,6 +41,6 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
     - name: docker push
-      run: docker push acdhch/noske-fcs-dse-static:latest
+      run: docker push acdhch/noske-fcs-gams-dse-static:latest
 
 

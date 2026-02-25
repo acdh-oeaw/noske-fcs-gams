@@ -256,8 +256,11 @@ def main():
 
     with open(args.c, "r") as f:
         cfg = safe_load(f)
-    response = requests.get(cfg["src"])
-    src_data = response.json()["endpoints"]
+    try:
+        response = requests.get(cfg["src"])
+        src_data = response.json()["endpoints"]
+    except KeyError:
+        src_data = {}
     if "staticSrc" in cfg:
         with open(cfg["staticSrc"], "r", encoding="utf-8") as fp:
             src_data.update(json.load(fp))
@@ -296,7 +299,11 @@ def main():
         if os.path.exists(path_vertical) and args.s:
             print(f"    vertical file {path_vertical} already exists - skipping")
             continue
-        create_config(corpora, path_config, cfg)
+        try:
+            create_config(corpora, path_config, cfg)
+        except Exception as e:
+            print(f"failed to process {key} due to {e}")
+            continue
         create_mquery_sru_config(corpora, f"{path_config}.yml", cfg)
         if not args.co:
             create_vertical(corpora, path_vertical, cfg)
