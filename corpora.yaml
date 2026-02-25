@@ -1,366 +1,75 @@
-bundesverfassung-oesterreich:
-  description:
-    en: The aim of the GH-Project for „Die Entstehung des Bundes-Verfassungsgesetzes 1920“ is to provide documents, commentaries and data in general concerning the genesis of the Austrian Bundes-Verfassungsgesetzes in the 1920s.
-  landingPageURI: https://github.com/bundesverfassung-oesterreich
-  languages:
-  - deu
-  paragraph: p
-  pid: https://github.com/bundesverfassung-oesterreich
-  session: chapter
-  text: chapter
-  title:
-    de: bundesverfassung-oesterreich
-    en: bundesverfassung-oesterreich
-  turn: p
-  utterance: s
-abacus:
+aled:
   description:
     en: ''
-  landingPageURI: https://acdh.oeaw.ac.at/abacus/
+  landingPageURI: https://gams.uni-graz.at/aled
   languages:
-  - deu
+  - de
   paragraph: p
-  pid: https://acdh.oeaw.ac.at/abacus/
+  pid: ''
   session: chapter
   text: chapter
   title:
-    en: Austrian Baroque Corpus
+    de: Digitale Edition der Chronik des Klosters Aldersbach
+    en: Digitale Edition der Chronik des Klosters Aldersbach
   turn: p
   utterance: s
-shawi:
+detamax:
   description:
     en: ''
-  landingPageURI: https://www.oeaw.ac.at/acdh/research/linguistics/research/corpus-linguistics/shawi-the-shawi-type-arabic-dialects
+  landingPageURI: https://gams.uni-graz.at/detamax
   languages:
-  - ara
+  - de
   paragraph: p
-  pid: https://www.oeaw.ac.at/acdh/research/linguistics/research/corpus-linguistics/shawi-the-shawi-type-arabic-dialects
+  pid: ''
   session: chapter
   text: chapter
   title:
-    en: Shawi-type Arabic Dialects Corpus
+    de: Digitale Edition des Tagebuchs von Kaiser Maximilian von Mexiko
+    en: Digitale Edition des Tagebuchs von Kaiser Maximilian von Mexiko
   turn: p
   utterance: s
-tunocent:
-  pid: https://tunocent.acdh.oeaw.ac.at/
-  title: 
-    en: Arabic Varieties of Northwestern and Central Tunisia
+fercan:
   description:
     en: ''
-  landingPageURI: https://tunocent.acdh.oeaw.ac.at/
+  landingPageURI: https://gams.uni-graz.at/fercan
   languages:
-  - ara
-  utterance: p
+  - la
   paragraph: p
+  pid: http://hdl.handle.net/11471/504.50
+  session: chapter
+  text: chapter
+  title:
+    en: "Die keltischen G\xF6tternamen der germanischen Provinzen"
+    la: "Die keltischen G\xF6tternamen der germanischen Provinzen"
   turn: p
-  text: doc
-  session: doc
-wibarab:
+  utterance: s
+hsa:
   description:
     en: ''
-  landingPageURI: https://wibarab.acdh.oeaw.ac.at/
+  landingPageURI: http://schuchardt.uni-graz.at
   languages:
-  - ara
+  - eu pt cy
   paragraph: p
-  pid: https://wibarab.acdh.oeaw.ac.at/
+  pid: http://hdl.handle.net/11471/518.10
   session: chapter
   text: chapter
   title:
-    en: Bedouin-Type Arabic Corpus
+    en: Hugo Schuchardt Archiv
+    eu: Hugo Schuchardt Archiv
   turn: p
   utterance: s
-wiener-diarium:
-  pid: https://digitarium.acdh.oeaw.ac.at/
-  title:
-    en: The Viennese Diary
-    de: Das Wien[n]erische Diarium
-  description:
-    en: The Wiener[n]erisches Diarium, available in print form as the Wiener Zeitung until June 2023, was the most important medium of the Habsburg monarchy in the 18th century. The fact that all editions have been preserved since its founding in 1703 makes it a historical source of particular value, as it documents numerous historical events, people and places. Changes in language and the development of journalism can also be researched over the years. The Wiener[n]erisches Diarium is therefore an important source for many humanities disciplines, such as historical linguistics, historical media studies, art history, music history, social history and many more.
-    de: Das Wien[n]erische Diarium, bis Juni 2023 in gedruckter Form als Wiener Zeitundeuhältlich, war im 18. Jahrhundert das bedeutendste Medium der Habsburdeumonarchie. Dass sich seit seiner Gründung 1703 sämtliche Ausgaben erhalten haben, macht es zu einer historischen Quelle von besonderem Wert, denn es dokumentiert zahlreiche historische Ereignisse, Personen und Orte. Auch Veränderungen der Sprache und die Entwicklung des Journalismus lassen sich über die Jahre hinweg erforschen. Für viele geisteswissenschaftliche Disziplinen ist das Wien[n]erische Diarium daher eine wichtige Quelle, etwa für die historische Sprachwissenschaft, historische Medienwissenschaft, Kunstgeschichte, Musikgeschichte, Sozialgeschichte u.v.m.
-  landingPageURI: https://digitarium.acdh.oeaw.ac.at/
-  languages:
-  - deu
-  utterance: p
-  paragraph: p
-  turn: p
-  text: doc
-  session: doc
-# DSE-STATIC
-akademieprotokolle:
+speculum:
   description:
     en: ''
-  landingPageURI: https://akademieprotokolle.acdh.oeaw.ac.at
+  landingPageURI: https://gams.uni-graz.at/speculum
   languages:
-  - deu
+  - hr
   paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-84B5-6
+  pid: ''
   session: chapter
   text: chapter
   title:
-    de: "Sitzungsprotokolle der \xD6sterreichischen Akademie der Wissenschaften."
-    en: "Sitzungsprotokolle der \xD6sterreichischen Akademie der Wissenschaften."
-  turn: p
-  utterance: s
-amp:
-  description:
-    en: ''
-  landingPageURI: https://csae8092.github.io/amp-app
-  languages:
-  - eng
-  paragraph: p
-  pid: https://csae8092.github.io/amp-app
-  session: chapter
-  text: chapter
-  title:
-    en: 'Auden Musulin Papers: A Digital Edition of W. H. Auden''s Letters to Stella
-      Musulin.'
-  turn: p
-  utterance: s
-bvg:
-  description:
-    en: ''
-  landingPageURI: https://b-vg.acdh.oeaw.ac.at
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-84B4-7
-  session: chapter
-  text: chapter
-  title:
-    de: Die Entstehung des Bundes-Verfassungsgesetzes 1920.
-    en: Die Entstehung des Bundes-Verfassungsgesetzes 1920.
-  turn: p
-  utterance: s
-dhdabstracts:
-  description:
-    en: ''
-  landingPageURI: https://acdh-oeaw.github.io/dhd-abstracts-static
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-8532-9
-  session: chapter
-  text: chapter
-  title:
-    de: DHd Abstracts
-    en: DHd Abstracts
-  turn: p
-  utterance: s
-familiensache:
-  description:
-    en: ''
-  landingPageURI: https://kaiserin-eleonora.oeaw.ac.at
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-84B8-3
-  session: chapter
-  text: chapter
-  title:
-    de: "Familiensache. Dynastische Handlungsspielr\xE4ume in der Korrespondenz von\
-      \ Kaiserin Eleonora Magdalena von Pfalz-Neuburg (1655-1720)."
-    en: "Familiensache. Dynastische Handlungsspielr\xE4ume in der Korrespondenz von\
-      \ Kaiserin Eleonora Magdalena von Pfalz-Neuburg (1655-1720)."
-  turn: p
-  utterance: s
-grazernuntiatur:
-  description:
-    en: ''
-  landingPageURI: https://grazer-nuntiatur.acdh.oeaw.ac.at
-  languages:
-  - ita
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-84B6-5
-  session: chapter
-  text: chapter
-  title:
-    en: "Grazer Nuntiatur: Korrespondenz (1580\u20131602)."
-    it: "Grazer Nuntiatur: Korrespondenz (1580\u20131602)."
-  turn: p
-  utterance: s
-gtrans:
-  description:
-    en: ''
-  landingPageURI: https://gtrans.acdh.oeaw.ac.at
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-84BA-1
-  session: chapter
-  text: chapter
-  title:
-    de: "Die gro\xDFe Transformation: Staat und kommunaler \xF6ffentlicher Dienst\
-      \ in Wien (1918\u20131920)."
-    en: "Die gro\xDFe Transformation: Staat und kommunaler \xF6ffentlicher Dienst\
-      \ in Wien (1918\u20131920)."
-  turn: p
-  utterance: s
-nuntiaturpiusxi:
-  description:
-    en: ''
-  landingPageURI: https://nuntiatur-pius-xi.acdh.oeaw.ac.at
-  languages:
-  - ita
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-84B7-4
-  session: chapter
-  text: chapter
-  title:
-    en: "Nuntiatur Pius XI: Korrespondenz (1923\u20131936)"
-    it: "Nuntiatur Pius XI: Korrespondenz (1923\u20131936)"
-  turn: p
-  utterance: s
-schnitzlerbriefe:
-  description:
-    en: ''
-  landingPageURI: https://schnitzler-briefe.acdh.oeaw.ac.at
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-84B3-8
-  session: chapter
-  text: chapter
-  title:
-    de: "Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren (1888\u20131931)."
-    en: "Arthur Schnitzler: Briefwechsel mit Autorinnen und Autoren (1888\u20131931)."
-  turn: p
-  utterance: s
-schnitzlertagebuch:
-  description:
-    en: ''
-  landingPageURI: https://schnitzler-tagebuch.acdh.oeaw.ac.at
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-84BB-0
-  session: chapter
-  text: chapter
-  title:
-    de: "Arthur Schnitzler: Tagebuch (1879\u20131931)."
-    en: "Arthur Schnitzler: Tagebuch (1879\u20131931)."
-  turn: p
-  utterance: s
-staribacher:
-  description:
-    en: ''
-  landingPageURI: https://staribacher.acdh.oeaw.ac.at
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-9446-2
-  session: chapter
-  text: chapter
-  title:
-    de: "Josef Staribacher Tageb\xFCcher (1970\u20131983)"
-    en: "Josef Staribacher Tageb\xFCcher (1970\u20131983)"
-  turn: p
-  utterance: s
-tillichlectures:
-  description:
-    en: ''
-  landingPageURI: https://tillichcorrespondence.github.io/tillich-lectures-static
-  languages:
-  - eng
-  paragraph: p
-  pid: https://tillichcorrespondence.github.io/tillich-lectures-static
-  session: chapter
-  text: chapter
-  title:
-    en: A digital edition of Paul Tillich's Lecture 'Religion and Culture', Harvard
-      1955-1956.
-  turn: p
-  utterance: s
-wmp1:
-  description:
-    en: ''
-  landingPageURI: https://wmp1.acdh.oeaw.ac.at
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0016-84B9-2
-  session: chapter
-  text: chapter
-  title:
-    de: Das erste Wiener Merkantilprotokoll.
-    en: Das erste Wiener Merkantilprotokoll.
-  turn: p
-  utterance: s
-jad:
-  description:
-    en: The project explores the medieval reception and interpretation of the Roman conquest of Jerusalem in 70 AD, examining its presence in chronicles, anti-Jewish treatises, sermon collections, and biblical commentaries.
-  landingPageURI: https://hdl.handle.net/21.11115/0000-0017-DC59-C
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0017-DC59-C
-  session: chapter
-  text: chapter
-  title:
-    de: Mittelalterliche Rezeption der römischen Eroberung Jerusalems
-    en: Medieval Reception of the Roman Conquest of Jerusalem
-  turn: p
-  utterance: s
-legalkraus:
-  description:
-    de: Digitale Edition der Rechtsakten der Kanzlei Oskar Samek.
-    en: Digital edition of the legal documents of the Oskar Samek law firm.
-  landingPageURI: https://karl-kraus.github.io/legalkraus-static/
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0017-DC5A-B
-  session: chapter
-  text: chapter
-  title:
-    de: Karl Kraus - Rechtsakten der Kanzlei Oskar Samek. Wissenschaftliche Edition
-    en: Karl Kraus - Legal documents from the law firm of Oskar Samek. Academic edition
-  turn: p
-  utterance: s
-wiener-rundschau:
-  description:
-    de: Digitale Edition der Wiener Rundschau (1910–1954)
-    en: Digital edition of Wiener Rundschau (1910–1954)
-  landingPageURI: https://acdh-oeaw.github.io/wiener-rundschau-static/
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0018-07FF-0
-  session: chapter
-  text: chapter
-  title:
-    de: Digitale Edition der Wiener Rundschau (1910–1954)
-    en: Digital edition of Wiener Rundschau (1910–1954)
-  turn: p
-  utterance: s
-baedeker:
-  description:
-    de: Eine digitale Edition von fünf Bänden der Baedeker Reiseführer aus den Jahren 1875, 1893, 1905, 1909 und 1914.
-    en: A digital edition of five volumes of Baedeker travel guides from 1875, 1893, 1905, 1909, and 1914.
-  landingPageURI: https://acdh-oeaw.github.io/bd-static/
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0018-085D-6
-  session: chapter
-  text: chapter
-  title:
-    de: Baedeker Digital (1875–1914)
-    en: Baedeker Digital (1875–1914)
-  turn: p
-  utterance: s
-dsestatic:
-  description:
-    de: Eine Demo Applikation des dse-static-cookiecutter.
-    en: A demo application of the dse-static-cookiecutter.
-  landingPageURI: https://acdh-oeaw.github.io/dse-static-cookiecutter/
-  languages:
-  - deu
-  paragraph: p
-  pid: https://hdl.handle.net/21.11115/0000-0018-085E-5
-  session: chapter
-  text: chapter
-  title:
-    de: Demo Applikation des dse-static-cookiecutter
-    en: Demo application of the dse-static-cookiecutter
+    en: "Digital edition of Zrcalo \u010Dlov\u011B\u010Daskogo spasenja"
+    hr: "Digital edition of Zrcalo \u010Dlov\u011B\u010Daskogo spasenja"
   turn: p
   utterance: s
